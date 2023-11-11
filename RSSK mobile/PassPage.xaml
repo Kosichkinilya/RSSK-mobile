@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RSSK_mobile.PassPage"
+             Title="Ваш пропуск"
+             Background="#efeff3">
+    <StackLayout Padding="10" Spacing="10">
+        <Label 
+            Text="Пропуск в Университет всегда под рукой! Войдите, что бы воспользоваться."
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+    </StackLayout>
+</ContentPage>

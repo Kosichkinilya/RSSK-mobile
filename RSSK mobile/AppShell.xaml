@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="RSSK_mobile.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:RSSK_mobile"
+    Shell.FlyoutBehavior="Disabled">
+
+
+
+    <TabBar>
+
+        <Tab  Title="Главная" Icon="main.png">
+            <ShellContent Title="Главная"  ContentTemplate="{DataTemplate local:MainPage}" />
+        </Tab>
+
+        <Tab Title="Органайзер" Icon="organized.png">
+            <ShellContent Title="Ваш пропуск" ContentTemplate="{DataTemplate local:OrganizerPage}" />
+        </Tab>
+
+        <Tab Title="Пропуск" Icon="pass.png">
+            <ShellContent Title="Ваш пропуск" ContentTemplate="{DataTemplate local:PassPage}" />
+        </Tab>
+
+        <Tab Title="Сервисы" Icon="services.png">
+            <ShellContent Title="Мероприятия" ContentTemplate="{DataTemplate local:ServicesPage}" />
+        </Tab>
+
+        <Tab Title="Профиль" Icon="profile.png">
+            <ShellContent Title="Профиль" ContentTemplate="{DataTemplate local:ProfilePage}" />
+        </Tab>
+
+
+    </TabBar>
+
+</Shell>

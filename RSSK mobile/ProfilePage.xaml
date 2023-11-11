@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="RSSK_mobile.ProfilePage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="Профиль"
+    Background="#efeff3">
+    <StackLayout Padding="10" Spacing="10">
+
+
+        <Label
+            HorizontalOptions="Center"
+            Text="Войдите в аккаунт и воспользуйтесь полным функционалом приложения"
+            VerticalOptions="Center" />
+
+
+        <Button
+            HorizontalOptions="StartAndExpand"
+            BackgroundColor="White" 
+            TextColor="Black"
+            Text="Войти с помощью RSSK ID"/>
+
+        <BoxView Color="Gray" HeightRequest="1" HorizontalOptions="FillAndExpand" />
+
+
+        <Button
+            HorizontalOptions="StartAndExpand"
+            BackgroundColor="White" 
+            TextColor="Black"
+            Clicked="Button_Settings"
+            Text="Настройки"/>
+
+
+
+
+    </StackLayout>
+
+
+
+
+
+
+
+</ContentPage>

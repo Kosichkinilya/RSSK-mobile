@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="RSSK_mobile.OrganizerPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="Органайзер"
+    Background="#efeff3">
+
+
+    <VerticalStackLayout Padding="10" Spacing="10">
+        <Label
+            HorizontalOptions="Center"
+            Text="Расписание занятий в вашем телефоне!"
+            VerticalOptions="Center" />
+        <Label
+            HorizontalOptions="StartAndExpand"
+            Text="Ваша группа:"
+            VerticalOptions="Center" />
+
+        <Picker
+            x:Name="myPicker"
+            Title=""
+            HorizontalOptions="EndAndExpand">
+            <Picker.ItemsSource>
+                <x:Array Type="{x:Type x:String}">
+                    <x:String>ИСП - 11</x:String>
+                    <x:String>ИСП - 12</x:String>
+                    <x:String>ИСП - 13</x:String>
+                    <x:String>ИСП - 14</x:String>
+
+                    <x:String>ТМ - 11</x:String>
+                    <x:String>ТМ - 12</x:String>
+                    <x:String>ТМ - 13</x:String>
+                    <x:String>ТМ - 14</x:String>
+
+                    <x:String>ИСП - 11</x:String>
+                    <x:String>ИСП - 12</x:String>
+                    <x:String>ИСП - 13</x:String>
+
+                    <x:String>Б - 11</x:String>
+
+                    <x:String>К - 11</x:String>
+
+                    <x:String>БД - 11</x:String>
+
+
+
+
+
+                    <x:String>ИСП - 21</x:String>
+                    <x:String>ИСП - 22</x:String>
+                    <x:String>ИСП - 23</x:String>
+                    <x:String>ИСП - 24</x:String>
+
+                    <x:String>ТМ - 21</x:String>
+                    <x:String>ТМ - 22</x:String>
+                    <x:String>ТМ - 23</x:String>
+                    <x:String>ТМ - 24</x:String>
+
+                    <x:String>ИСП - 21</x:String>
+                    <x:String>ИСП - 22</x:String>
+                    <x:String>ИСП - 23</x:String>
+
+                    <x:String>Б - 21</x:String>
+
+                    <x:String>К - 21</x:String>
+
+                    <x:String>БД - 21</x:String>
+
+                </x:Array>
+            </Picker.ItemsSource>
+        </Picker>
+
+        <StackLayout>
+            <Button
+                Background="White"
+                Text="График учебного процесса"
+                TextColor="black" />
+        </StackLayout>
+    </VerticalStackLayout>
+
+
+</ContentPage>
